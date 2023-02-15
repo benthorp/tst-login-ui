@@ -37,6 +37,29 @@
   background-color: #f1f6f9;
 }
 
+.Login-page-input-invalid {
+  border-color: red;
+  outline: red;
+}
+
+.Login-page-input-valid {
+  border: 1px solid #ccc;
+}
+
+.Login-page-password-message {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Login-page-password-message-invalid {
+  color: red;
+}
+
+.Login-page-password-message-valid {
+  color: green;
+}
+
 .Login-page-login-button {
   background-color: #4aa1ff;
   color: white;
