@@ -7,6 +7,17 @@
   background-color: #ffffff;
 }
 
+.Login-page-logo {
+  height: 100px;
+  pointer-events: none;
+  margin-bottom: 10px;
+}
+
+.Login-page-header {
+  text-align: center;
+  margin: 10px 0 12px 0;
+}
+
 .Login-page-field {
   width: 100%;
   margin-bottom: 10px;

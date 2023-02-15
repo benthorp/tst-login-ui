@@ -1,9 +1,13 @@
 import React from 'react';
 import './LoginPage.css';
+import logo from './TST-Logo-Consumer.png';
 
 function LoginPage() {
   return (
     <div className='Login-page-container'>
+      <header className="Login-page-header">
+        <img src={logo} className="Login-page-logo" alt="logo" />
+      </header>
       <div className='Login-page-field'>
         <label className='Login-page-field-label'>
           Username
