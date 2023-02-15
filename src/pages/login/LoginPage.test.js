@@ -12,13 +12,13 @@ describe('SCENARIO: Login page initial load', () => {
     it('THEN: password input field is displayed', () => {
       render(<LoginPage />);
 
-      const password = screen.getByRole('textbox', { name: 'Password' })
+      const password = screen.getByLabelText('Password')
       expect(password.value).toBe('')
     });
     it('THEN: verify password input field is displayed', () => {
       render(<LoginPage />);
 
-      const verifyPassword = screen.getByRole('textbox', { name: 'Verify Password' })
+      const verifyPassword = screen.getByLabelText('Verify Password')
       expect(verifyPassword.value).toBe('')
     });
     it('THEN: Login button is displayed', () => {

@@ -21,7 +21,7 @@ function LoginPage() {
             type='password'
             className='Login-page-input'
             placeholder='Enter Password'
-            />
+          />
         </label>
       </div>
       <div className='Login-page-field'>
@@ -31,7 +31,7 @@ function LoginPage() {
             type='password'
             className='Login-page-input'
             placeholder='Verify Password'
-            />
+          />
         </label>
       </div>
       <button
