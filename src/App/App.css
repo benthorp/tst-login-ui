@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  margin: auto;
+  min-width: 320px;
+  max-width: 400px;
+  padding: 20px 16px 0px 16px;
+}
+
+.App-logo {
+  height: 75px;
+  pointer-events: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.App-header {
+  background-color: #4aa1ff;
+}
+
+.App-link {
+  color: #61dafb;
+}
