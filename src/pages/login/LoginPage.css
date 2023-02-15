@@ -2,4 +2,34 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 3px solid #f1f1f1;
+  padding: 16px;
+}
+
+.Login-page-field {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.Login-page-field-label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Login-page-input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.Login-page-login-button {
+  background-color: #4aa1ff;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
 }

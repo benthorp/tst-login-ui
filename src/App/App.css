@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
   margin: auto;
   min-width: 320px;
   max-width: 400px;
@@ -7,14 +6,14 @@
 }
 
 .App-logo {
-  height: 75px;
+  height: 100px;
   pointer-events: none;
-  margin-top: 10px;
   margin-bottom: 10px;
 }
 
 .App-header {
-  background-color: #4aa1ff;
+  text-align: center;
+  margin: 24px 0 12px 0;
 }
 
 .App-link {

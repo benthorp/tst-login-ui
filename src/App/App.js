@@ -1,4 +1,4 @@
-import logo from './logo.png';
+import logo from './TST-Logo-Consumer.png';
 import './App.css';
 import LoginPage from '../pages/login/LoginPage';
 
