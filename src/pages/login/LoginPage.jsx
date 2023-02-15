@@ -18,7 +18,7 @@ function LoginPage() {
         <label className='Login-page-field-label'>
           Password
           <input
-            type='text'
+            type='password'
             className='Login-page-input'
             placeholder='Enter Password'
             />
@@ -28,7 +28,7 @@ function LoginPage() {
         <label className='Login-page-field-label'>
           Verify Password
           <input
-            type='text'
+            type='password'
             className='Login-page-input'
             placeholder='Verify Password'
             />
