@@ -30,7 +30,6 @@ describe('SCENARIO: Login page initial load', () => {
     });
   });
 });
-
 describe('SCENARIO: Verify passwords match', () => {
   describe('WHEN: both password fields are blank', () => {
     it('THEN: validation message is not shown', async () => {
