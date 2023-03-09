@@ -1,7 +1,7 @@
 import './LoginPage.css';
 import LoginPageField from './LoginPageField';
 import LoginPagePasswords from './LoginPagePasswords';
-import logo from './TST-Logo-Consumer.png';
+import logo from './logo-optimized-1-1.webp';
 
 function LoginPage() {
   return (
